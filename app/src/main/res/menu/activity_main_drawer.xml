@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/Dashboard" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/MyProfile" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="@string/Servicerequest" />
+        <item
+            android:id="@+id/nav_slideshow1"
+            android:title="@string/Aboutus" />
+        <item
+            android:id="@+id/nav_slideshow2"
+            android:title="@string/Sharethisapp" />
+        <item
+            android:id="@+id/nav_slideshow3"
+            android:title="@string/Rules" />
+        <item
+            android:id="@+id/nav_slideshow4"
+            android:title="@string/Language" />
+        <item
+            android:id="@+id/nav_slideshow5"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/Logout" />
+    </group>
+</menu>

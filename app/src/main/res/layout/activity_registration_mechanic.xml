@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationMechanic">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:background="@color/purple_700">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="Registration-Mechanic"
+                android:textSize="20dp"
+                android:textColor="@color/white">
+            </TextView>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/l1">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="MDM Welcomes You!"
+                android:textColor="#CF0606"
+                android:textSize="15dp"/>
+
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="180dp"
+                        android:layout_height="25dp"
+                        android:text="Name"
+                        android:textSize="18dp" />
+
+
+
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:imeOptions="actionNext"
+                        android:layout_toRightOf="@id/text1"
+                        android:background="@drawable/square" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="180dp"
+                        android:layout_height="25dp"
+                        android:text="Mobile Number"
+                        android:textSize="18dp" />
+
+
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:inputType="number"
+                        android:imeOptions="actionNext"
+                        android:layout_toRightOf="@id/text3"
+                        android:background="@drawable/square" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="180dp"
+                        android:layout_height="25dp"
+                        android:text="password"
+                        android:textSize="18dp" />
+
+
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="0dp"
+                        android:imeOptions="actionNext"
+                        android:layout_toRightOf="@id/text5"
+                        android:background="@drawable/square"
+                        android:inputType="textPassword" />
+
+
+                </RelativeLayout><RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="180dp"
+                    android:layout_height="25dp"
+                    android:text="Alternative  Number"
+
+                    android:textSize="18dp" />
+
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="0dp"
+                    android:imeOptions="actionNext"
+                    android:layout_toRightOf="@id/text7"
+                    android:background="@drawable/square"
+                    android:inputType="number" />
+
+            </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/text9"
+                        android:layout_width="180dp"
+                        android:layout_height="25dp"
+                        android:text="Shopservice Address"
+                        android:textSize="18dp" />
+
+
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:hint="Street"
+                        android:imeOptions="actionNext"
+                        android:layout_toRightOf="@id/text9"
+                        android:background="@drawable/square" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <EditText
+                        android:id="@+id/e1"
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:hint="Town/City"
+                        android:imeOptions="actionNext"
+                        android:layout_marginLeft="180dp"
+                        android:background="@drawable/square" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <EditText
+                        android:id="@+id/e2"
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:hint="District"
+                        android:imeOptions="actionNext"
+                        android:layout_marginLeft="180dp"
+                        android:background="@drawable/square" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <EditText
+                        android:id="@+id/e3"
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:hint="State"
+                        android:imeOptions="actionNext"
+                        android:layout_marginLeft="180dp"
+                        android:background="@drawable/square" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <EditText
+                        android:id="@+id/e4"
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="180dp"
+                        android:background="@drawable/square"
+                        android:hint="Pincode"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/text11"
+                        android:layout_width="180dp"
+                        android:layout_height="25dp"
+                        android:text="Vehile Make"
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:imeOptions="actionNext"
+                        android:layout_toRightOf="@id/text11"
+                        android:background="@drawable/square" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/text13"
+                        android:layout_width="180dp"
+                        android:layout_height="25dp"
+                        android:text="Vehile Brand"
+
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:imeOptions="actionNext"
+                        android:layout_toRightOf="@id/text13"
+                        android:background="@drawable/square" />
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lets Go!"
+                        android:backgroundTint="#1ACA2B"
+                        android:layout_marginLeft="135dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mydearmechanic.ui.home.HomeFragment"
+        android:label="@string/Dashboard"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.mydearmechanic.ui.gallery.GalleryFragment"
+        android:label="@string/MyProfile"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.mydearmechanic.ui.slideshow.SlideshowFragment"
+        android:label="@string/Servicerequest"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_slideshow1"
+        android:name="com.mydearmechanic.ui.AboutUs"
+        android:label="@string/Aboutus"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/nav_slideshow2"
+        android:name="com.mydearmechanic.ui.SharethisApp"
+        android:label="@string/Sharethisapp"
+        tools:layout="@layout/fragment_sharethis_app" />
+    <fragment
+        android:id="@+id/nav_slideshow3"
+        android:name="com.mydearmechanic.ui.Rules"
+        android:label="@string/Rules"
+        tools:layout="@layout/fragment_rules" />
+    <fragment
+        android:id="@+id/nav_slideshow4"
+        android:name="com.mydearmechanic.ui.Language"
+        android:label="@string/Servicerequest"
+        tools:layout="@layout/fragment_language" />
+    <fragment
+        android:id="@+id/nav_slideshow5"
+        android:name="com.mydearmechanic.ui.Logout"
+        android:label="@string/Servicerequest"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>
